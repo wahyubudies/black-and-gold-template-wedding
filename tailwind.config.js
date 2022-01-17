@@ -15,7 +15,8 @@ module.exports = {
 
         'gray-black-gold': "#737373",
         'black-black-gold': '#1f1f1f',
-        'gold-black-gold': '#B68F48'
+        'gold-black-gold-level-1': '#DBC087',
+        'gold-black-gold-level-2': '#B68F48'
       },
       backgroundImage: {
         'hero-header': "url('../frontend/images/template-01/header.png')"
