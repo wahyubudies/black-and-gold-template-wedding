@@ -545,12 +545,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -80px;
 }
 
-.top-\[216px\]{
-  top: 216px;
+.top-\[-1px\]{
+  top: -1px;
 }
 
-.top-\[112px\]{
-  top: 112px;
+.top-\[-220px\]{
+  top: -220px;
+}
+
+.bottom-\[-120px\]{
+  bottom: -120px;
+}
+
+.bottom-\[-1px\]{
+  bottom: -1px;
 }
 
 .left-\[22px\]{
@@ -577,40 +585,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -100%;
 }
 
-.top-10{
-  top: 2.5rem;
-}
-
-.top-\[-10px\]{
-  top: -10px;
-}
-
-.top-\[-220px\]{
-  top: -220px;
-}
-
-.bottom-\[-120px\]{
-  bottom: -120px;
-}
-
-.-bottom-10{
-  bottom: -2.5rem;
-}
-
-.top-\[-11px\]{
-  top: -11px;
-}
-
-.top-\[-1px\]{
-  top: -1px;
-}
-
-.bottom-\[1px\]{
-  bottom: 1px;
-}
-
-.bottom-\[-1px\]{
-  bottom: -1px;
+.bottom-\[-70px\]{
+  bottom: -70px;
 }
 
 .z-30{
@@ -648,14 +624,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mt-4{
@@ -698,8 +674,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: -30px;
 }
 
+.ml-5{
+  margin-left: 1.25rem;
+}
+
+.mt-\[134px\]{
+  margin-top: 134px;
+}
+
+.mt-\[122px\]{
+  margin-top: 122px;
+}
+
 .-mb-\[40px\]{
   margin-bottom: -40px;
+}
+
+.mt-\[46px\]{
+  margin-top: 46px;
 }
 
 .ml-4{
@@ -728,14 +720,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-2{
   margin-top: 0.5rem;
-}
-
-.-mr-5{
-  margin-right: -1.25rem;
-}
-
-.ml-5{
-  margin-left: 1.25rem;
 }
 
 .block{
@@ -882,16 +866,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 32px;
 }
 
-.w-\[314px\]{
-  width: 314px;
-}
-
 .w-3\/6{
   width: 50%;
-}
-
-.w-\[278px\]{
-  width: 278px;
 }
 
 .w-0{
@@ -1144,11 +1120,6 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-position: right;
 }
 
-.object-top{
-  -o-object-position: top;
-     object-position: top;
-}
-
 .p-4{
   padding: 1rem;
 }
@@ -1317,11 +1288,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-transparent{
   color: transparent;
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-50{
