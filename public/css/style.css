@@ -577,6 +577,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -100%;
 }
 
+.top-10{
+  top: 2.5rem;
+}
+
+.top-\[-10px\]{
+  top: -10px;
+}
+
+.top-\[-220px\]{
+  top: -220px;
+}
+
+.bottom-\[-120px\]{
+  bottom: -120px;
+}
+
+.-bottom-10{
+  bottom: -2.5rem;
+}
+
+.top-\[-11px\]{
+  top: -11px;
+}
+
+.top-\[-1px\]{
+  top: -1px;
+}
+
+.bottom-\[1px\]{
+  bottom: 1px;
+}
+
+.bottom-\[-1px\]{
+  bottom: -1px;
+}
+
 .z-30{
   z-index: 30;
 }
@@ -615,6 +651,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mt-4{
@@ -687,6 +728,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.-mr-5{
+  margin-right: -1.25rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
 }
 
 .block{
@@ -907,6 +956,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
+.transform{
+  transform: var(--tw-transform);
+}
+
 .resize-none{
   resize: none;
 }
@@ -990,6 +1043,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-gray-level-1{
   --tw-border-opacity: 1;
   border-color: rgb(224 224 224 / var(--tw-border-opacity));
+}
+
+.bg-\[\#3d3d3d\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 61 61 / var(--tw-bg-opacity));
 }
 
 .bg-black-black-gold{
@@ -1084,6 +1142,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-right{
   -o-object-position: right;
      object-position: right;
+}
+
+.object-top{
+  -o-object-position: top;
+     object-position: top;
 }
 
 .p-4{
@@ -1247,9 +1310,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(31 31 31 / var(--tw-text-opacity));
 }
 
-.text-gold-black-gold-level-2{
+.text-gold-black-gold-level-1{
   --tw-text-opacity: 1;
-  color: rgb(182 143 72 / var(--tw-text-opacity));
+  color: rgb(219 192 135 / var(--tw-text-opacity));
 }
 
 .text-transparent{
@@ -1259,11 +1322,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gold-black-gold-level-1{
-  --tw-text-opacity: 1;
-  color: rgb(219 192 135 / var(--tw-text-opacity));
 }
 
 .opacity-50{
