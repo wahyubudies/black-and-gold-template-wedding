@@ -15,14 +15,14 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    @apply bg-gold-black-gold-level-2 rounded-xl;
+    @apply bg-gold-black-gold-level-1 rounded-xl;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    @apply bg-orange-level-1;
+    @apply bg-gold-black-gold-level-2;
 }
 
 .active {
-    @apply fill-gold-black-gold-level-2 text-gold-black-gold-level-2;
+    @apply fill-gold-black-gold-level-1 text-gold-black-gold-level-1;
 }
