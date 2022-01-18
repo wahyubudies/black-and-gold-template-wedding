@@ -13,7 +13,7 @@ module.exports = {
         'gray-level-1': "#E0E0E0",
         'gray-level-2': "#F3F3F3",
 
-        'gray-black-gold': "#737373",
+        'gray-black-gold': "#373737",
         'black-black-gold': '#1f1f1f',
         'gold-black-gold-level-1': '#DBC087',
         'gold-black-gold-level-2': '#B68F48'

@@ -557,8 +557,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -120px;
 }
 
-.bottom-\[-1px\]{
-  bottom: -1px;
+.bottom-\[-45px\]{
+  bottom: -45px;
 }
 
 .left-\[22px\]{
@@ -585,8 +585,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -100%;
 }
 
-.bottom-\[-70px\]{
-  bottom: -70px;
+.top-\[-100px\]{
+  top: -100px;
+}
+
+.top-\[-52px\]{
+  top: -52px;
+}
+
+.top-\[-34px\]{
+  top: -34px;
 }
 
 .z-30{
@@ -870,6 +878,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-\[calc\(100\%\+1px\)\]{
+  width: calc(100% + 1px);
+}
+
 .w-0{
   width: 0px;
 }
@@ -1011,9 +1023,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: dotted;
 }
 
-.border-orange-level-1{
+.border-gold-black-gold-level-2{
   --tw-border-opacity: 1;
-  border-color: rgb(225 161 112 / var(--tw-border-opacity));
+  border-color: rgb(182 143 72 / var(--tw-border-opacity));
 }
 
 .border-gray-level-1{
@@ -1021,9 +1033,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(224 224 224 / var(--tw-border-opacity));
 }
 
-.bg-\[\#3d3d3d\]{
+.bg-\[\#484848\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(61 61 61 / var(--tw-bg-opacity));
+  background-color: rgb(72 72 72 / var(--tw-bg-opacity));
 }
 
 .bg-black-black-gold{
@@ -1063,7 +1075,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-gray-black-gold{
   --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+  background-color: rgb(55 55 55 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3d3d3d\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 61 61 / var(--tw-bg-opacity));
+}
+
+.bg-gold-black-gold-level-1{
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 192 135 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -1093,7 +1115,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .fill-gray-black-gold{
-  fill: #737373;
+  fill: #373737;
 }
 
 .fill-gold-black-gold-level-2{
@@ -1273,7 +1295,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-gray-black-gold{
   --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
+  color: rgb(55 55 55 / var(--tw-text-opacity));
 }
 
 .text-black-black-gold{
@@ -1313,7 +1335,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 ::-webkit-scrollbar-track{
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+  background-color: rgb(55 55 55 / var(--tw-bg-opacity));
 }
 
 /* Handle */
