@@ -24,5 +24,5 @@
 }
 
 .active {
-    @apply fill-gold-black-gold-level-1 text-gold-black-gold-level-1;
+    @apply fill-gold-black-gold-level-2 text-gold-black-gold-level-2;
 }
