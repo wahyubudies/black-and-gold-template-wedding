@@ -593,6 +593,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -100%;
 }
 
+.bottom-\[-30px\]{
+  bottom: -30px;
+}
+
+.left-\[-54px\]{
+  left: -54px;
+}
+
 .z-30{
   z-index: 30;
 }
@@ -1399,11 +1407,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .focus\:ring-orange-level-2:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(246 224 207 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-black-black-gold:focus{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(31 31 31 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-gray-black-gold:focus{
